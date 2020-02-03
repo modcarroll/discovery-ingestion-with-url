@@ -1,14 +1,25 @@
 {
-  "name": "everest-react-app",
+  "name": "csm-bot-discovery-UI",
   "version": "0.1.0",
+  "engines": {
+    "node": "^12.13.x"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "browserify-fs": "^1.0.0",
+    "dotenv": "^8.2.0",
+    "ibm-watson": "^5.3.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react-scripts": "3.2.0",
+    "request-promise": "^4.2.5",
+    "stream": "0.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
